@@ -1,8 +1,0 @@
--For Github to pull up a website, you can only have 1 page and it has to be the outer most document
--to redirect to an email you can use https://mail.google.com/mail/?view=cm&fs=1&to={example@gmail.com}
-=> https://mail.google.com/mail/ : tells the page to pull up gmail
-=> ? : Seperates the main section of url and the query 
-=> view=cm : opens compose email window
-=> & : seperates query parameters
-=> fs=1 : sets fullscreen to true
-=> to={example@gmail.com} : shows who to send the email to
