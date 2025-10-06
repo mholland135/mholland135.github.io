@@ -1,0 +1,169 @@
+/* Reset basic margins */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Banner
+.banner {
+  width: 100%;
+  height: auto;
+}
+ */
+
+header{background-image: url(../images/banner.png);  background-repeat: no-repeat; background-size: 100vw; height: 50vh;}
+
+/* Navigation */
+nav {
+  background-color: #333;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+.nav-list li {
+  margin: 0 20px;
+}
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+
+/* Navigation Dropdown Styling */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  min-width: 150px;
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #555;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+
+
+/* Section styling */
+.section {
+  padding: 40px 20px;
+}
+
+/* About Section Layout */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#about-section{height: 60vh; background-color: #494848; color: #ccc;}
+
+
+.contact-section{height: 60vh;}
+
+.about-image img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+.about-text {
+  flex: 1;
+  min-width: 250px;
+  padding: 50px;
+}
+
+/* Contact Section */
+.contact-info {
+  margin-bottom: 20px;
+}
+.map-container iframe {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 150px;
+}
+.footer-col h4 {
+  margin-bottom: 10px;
+}
+.footer-col a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+.footer-col a:hover {
+  color: #fff;
+}
+
+.footer-col a i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.footer-col a i:hover {
+  color: #fff;
+}
+
+
+
+.social_icon{
+  text-align: center; padding: 20px;
+}
+
+.social_icon span a{
+  display: inline-block;
+}
